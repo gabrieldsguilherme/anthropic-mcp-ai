@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mcp
+
+ai:
+  capabilities:
+    technical-explanation: ${AI_MODEL_NAME:gpt-3.5-turbo}
+
+openai:
+  api:
+    key: ${OPENAI_API_KEY}
