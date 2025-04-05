@@ -2,6 +2,13 @@ spring:
   application:
     name: mcp
 
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    urls:
+      - name: Custom OpenAPI
+        url: /openapi.yaml
+
 ai:
   capabilities:
     technical-explanation: ${AI_MODEL_NAME:gpt-3.5-turbo}
